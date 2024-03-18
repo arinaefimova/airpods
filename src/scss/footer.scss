@@ -1,0 +1,36 @@
+//====================================================================================================
+
+.footer {
+
+    padding: 50px 0 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+  font-weight: 700;
+
+    &__container {
+    }
+    &__link {
+    }
+
+    &__text {
+        padding: 20px 0;
+    }
+
+    &__list {
+        padding-top: 80px;
+        gap:  20px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap; 
+       
+    }
+
+    &__item {
+    }
+}
+.logo {
+}
+
+//====================================================================================================

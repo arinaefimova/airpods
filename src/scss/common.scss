@@ -1,0 +1,17 @@
+button{
+    cursor: pointer;
+}
+.main {
+
+    &__title {
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        @media (max-width:$mobile){
+             font-size: 36px; 
+        }
+        @media (max-width: em(440)){
+              font-size: 28px;
+        }
+    }
+}
