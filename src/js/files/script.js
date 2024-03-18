@@ -19,7 +19,7 @@ const contentItem = document.querySelectorAll('.content-item');
 
 chooseColor.forEach(function (e) {
     e.addEventListener('click', open)
-})
+});
 
 function open(e) {
     const target = e.currentTarget;
